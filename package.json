@@ -1,0 +1,23 @@
+{
+  "name": "project_node2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch --no-warnings server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fastify": "^4.22.2",
+    "postgres": "^3.3.5"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
